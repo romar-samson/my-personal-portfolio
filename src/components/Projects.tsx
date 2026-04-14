@@ -3,7 +3,8 @@ import { ArrowRight, Database, LayoutTemplate } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { 
   SiReact, SiTailwindcss, SiTypescript, SiVite, SiFramer,
-  SiNextdotjs, SiGraphql, SiStripe, SiMysql, SiLaravel, SiXampp
+  SiMysql, SiLaravel, SiXampp,
+  SiFastapi, SiSqlalchemy, SiSqlite, SiJsonwebtokens
 } from 'react-icons/si';
 
 export const Projects: React.FC = () => {
@@ -41,13 +42,17 @@ export const Projects: React.FC = () => {
     },
     {
       id: 'proj-3',
-      title: 'Sakai',
-      desc: 'In Development',
-      image: '/sakai.jpg',
+      title: 'Aila',
+      desc: 'Aila is an intelligent trip assistant designed to track your journeys, optimize your routes, and keep your loved ones in the loop.',
+      image: '/aila.png',
       tech: [
-        { name: 'Next.js', icon: <SiNextdotjs className="text-black dark:text-white" /> },
-        { name: 'GraphQL', icon: <SiGraphql className="text-[#E10098] dark:text-[#F144B3]" /> },
-        { name: 'Stripe', icon: <SiStripe className="text-[#008CDD]" /> }
+        { name: 'React', icon: <SiReact className="text-[#61DAFB]" /> },
+        { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-[#06B6D4]" /> },
+        { name: 'Context API', icon: <SiReact className="text-[#61DAFB]" /> },
+        { name: 'FastAPI', icon: <SiFastapi className="text-[#009688]" /> },
+        { name: 'SQLAlchemy', icon: <SiSqlalchemy className="text-[#D71F00]" /> },
+        { name: 'SQLite', icon: <SiSqlite className="text-[#003B57]" /> },
+        { name: 'JWT Auth', icon: <SiJsonwebtokens className="text-black dark:text-white" /> }
       ],
       creator: 'uqlzsam'
     }
@@ -127,9 +132,12 @@ export const Projects: React.FC = () => {
                 
                 <div className={`flex flex-wrap gap-2.5 mb-8 transition-all ${isDev ? 'opacity-40 grayscale pointer-events-none' : ''}`}>
                   {proj.tech.map((t) => (
-                    <span key={t.name} className="flex items-center gap-1.5 text-xs font-bold text-blue-700 dark:text-blue-300 bg-blue-50 dark:bg-blue-900/30 px-3 py-1.5 rounded-lg border border-blue-100 dark:border-blue-900/50 shadow-sm hover:border-blue-200 dark:hover:border-blue-700 hover:bg-white dark:hover:bg-[#1E1E23] hover:text-blue-600 dark:hover:text-blue-400 transition-all cursor-default">
-                      <span className="text-[1.1rem]">{t.icon}</span>
-                      {t.name}
+                    <span 
+                      key={t.name} 
+                      className="group flex items-center gap-1.5 text-xs font-bold text-gray-600 dark:text-gray-400 bg-gray-50 dark:bg-[#1A1A1E] px-3.5 py-1.5 rounded-full border border-gray-100 dark:border-gray-800/80 hover:text-gray-900 dark:hover:text-white hover:border-gray-200 dark:hover:border-gray-700 hover:bg-white dark:hover:bg-[#222228] shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 cursor-default"
+                    >
+                      <span className="text-[1.1rem] transition-transform duration-300 group-hover:scale-110">{t.icon}</span>
+                      <span className="tracking-wide">{t.name}</span>
                     </span>
                   ))}
                 </div>
