@@ -12,7 +12,6 @@ A high-performance, minimalist, and dynamic personal portfolio built to showcase
 
 ## ✨ Key Features
 
-- **Pristine Performance:** Perfectly optimized to hit 100/100 Lighthouse Performance, Accessibility, SEO, and Best Practice scores on the production build.
 - **Fluid Dark Mode System:** System-wide theming support beautifully tailored by Tailwind classes and managed efficiently at the root architectural level.
 - **High-Performance Backgrounds:** Uses ultra-fast native CSS radial gradients (composited via the GPU pointer) instead of hardware-crashing blur filters to provide an organic, dynamic glowing aura.
 - **Scroll Tracking Timeline:** A highly aesthetic interactive scrolling history timeline constructed via Framer Motion's `useScroll` handlers.
