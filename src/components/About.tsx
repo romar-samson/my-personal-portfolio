@@ -32,13 +32,13 @@ export const About: React.FC = () => {
           
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 leading-snug transition-colors duration-300">
-              Transforming complex challenges into elegant, intuitive interfaces.
+              Transforming ideas into clean, intuitive user experiences.
             </h3>
             <p className="text-lg font-bold text-gray-800 dark:text-gray-200 leading-relaxed border-l-4 border-blue-500 pl-4 bg-gradient-to-r from-blue-50/50 dark:from-blue-900/10 to-transparent py-2 transition-colors duration-300">
-              I am a passionate UI/UX Designer and Frontend Developer with a keen eye for detail. I specialize in building responsive, visually stunning digital products that bridge the gap between aesthetic design and robust engineering.
+              I’m a UI/UX designer and front-end developer focused on creating clean, accessible, and responsive interfaces. I enjoy bridging the gap between design and development turning thoughtful design decisions into functional, real world applications.
             </p>
             <p className="text-base font-semibold text-gray-600 dark:text-gray-400 leading-relaxed transition-colors duration-300">
-              With a strong foundation in modern web technologies, I love crafting seamless user experiences. When I'm not coding, you can find me exploring typography, diving into new design trends, or constantly refining my creative workflow.
+              Currently, I’m focused on building front-end projects and refining my personal portfolio while continuously learning advanced layout techniques, accessibility, and modern design to code workflows. I’m passionate about improving my craft, exploring design trends, and creating seamless user experiences through both design and code.
             </p>
           </div>
 
@@ -51,8 +51,8 @@ export const About: React.FC = () => {
                  <Sparkles size={20} />
                </div>
                <div>
-                 <h4 className="font-bold text-gray-900 dark:text-gray-100 mb-1 transition-colors duration-300">Pixel Perfect</h4>
-                 <p className="text-sm font-semibold text-gray-500 dark:text-gray-400 transition-colors duration-300">Meticulous attention to typography, spacing, and micro-interactions.</p>
+                 <h4 className="font-bold text-gray-900 dark:text-gray-100 mb-1 transition-colors duration-300">Seamless Flows</h4>
+                 <p className="text-sm font-semibold text-gray-500 dark:text-gray-400 transition-colors duration-300">Translating multi-layered challenges into clear and functional user journeys.</p>
                </div>
              </motion.div>
 
@@ -64,8 +64,8 @@ export const About: React.FC = () => {
                  <Target size={20} />
                </div>
                <div>
-                 <h4 className="font-bold text-gray-900 dark:text-gray-100 mb-1 transition-colors duration-300">User Centric</h4>
-                 <p className="text-sm font-semibold text-gray-500 dark:text-gray-400 transition-colors duration-300">Always designing closely aligned with the end-user's needs and accessibility.</p>
+                 <h4 className="font-bold text-gray-900 dark:text-gray-100 mb-1 transition-colors duration-300">Interactive Motion</h4>
+                 <p className="text-sm font-semibold text-gray-500 dark:text-gray-400 transition-colors duration-300">Enhancing usability through purposeful animations and tactile feedback.</p>
                </div>
              </motion.div>
 
@@ -77,8 +77,8 @@ export const About: React.FC = () => {
                  <Zap size={20} />
                </div>
                <div>
-                 <h4 className="font-bold text-gray-900 dark:text-gray-100 mb-1 transition-colors duration-300">High Performance</h4>
-                 <p className="text-sm font-semibold text-gray-500 dark:text-gray-400 transition-colors duration-300">Delivering fast, optimized, and seamlessly animated web applications.</p>
+                 <h4 className="font-bold text-gray-900 dark:text-gray-100 mb-1 transition-colors duration-300">Robust Core</h4>
+                 <p className="text-sm font-semibold text-gray-500 dark:text-gray-400 transition-colors duration-300">Ensuring every interface is backed by a stable, high-efficiency architecture.</p>
                </div>
              </motion.div>
           </div>
